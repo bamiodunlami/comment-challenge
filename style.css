@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    top: 0;
+}
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f7fafd;
+    /* height: 90vh; */
+    padding: 10vh 25%;
+    /* overflow: hidden; */
+}
+
+.section-one{
+    background-color: #fff;
+    border-radius: 10px;
+    padding:5%;
+   /* overflow-y:scroll; */
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+h5{
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.notification-no{
+    padding: 2px 10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #0a317b;
+}
+
+/* p#mark-all{
+    float: right;
+} */
+#mark-all:hover{
+    cursor: pointer;
+    color: #0a317b;
+}
+
+
+
+.comment-row{
+    background-color: #f7fafd;
+    padding: 15px;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.image img{
+width: 40px;
+height: auto;
+}
+
+.comment-sec p{
+ font-size: 14px;
+}
+.user-name,
+.activity{
+    font-weight: 800;
+    margin-right: 5px;
+    color: hsl(224, 21%, 14%);
+}
+.comment-sec .time{
+    line-height: 0;
+    color: hsl(0, 0%, 67%);
+}
+
+@media(max-width:576px){
+    body{
+        padding:  10%;
+    }
+}
